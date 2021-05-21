@@ -1,0 +1,14 @@
+# Add entry
+POST http://localhost:5000/api/info
+Content-Type: application/json
+
+{
+    "firstName": "Pedro",
+    "lastName": "Pascal",
+    "dateOfBirth": "april 2 1975"
+}
+
+### 
+
+# Get Entries
+GET https://localhost:5000/api/info
